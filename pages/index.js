@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Link from 'next/Link'
+import NextLink from 'next/link'
 import { useRouter } from 'next/router'
 
 export default function Home() {
@@ -17,11 +17,11 @@ export default function Home() {
           <a href="https://nextjs.org">DevTter</a>
         </h1>
         <nav>
-          <Link href="/timeline">
+          <NextLink href="/timeline">
             <a>
               timeline
             </a>
-          </Link>
+          </NextLink>
         </nav>
       </main>
       <style jsx>
